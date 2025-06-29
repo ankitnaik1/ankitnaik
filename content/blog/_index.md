@@ -1,5 +1,5 @@
 +++
-title = "Archive"
+title = "Posts"
 description = ""
 template = "archive.html"
 transparent = true
