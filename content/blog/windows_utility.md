@@ -26,7 +26,7 @@ winutil
 
     irm "https://ankitnaik.pages.dev/program/winutil.ps1" | iex
 
-KMS
+chrome
 
-    irm "https://ankitnaik.pages.dev/program/KMS.exe" | iex
+    irm "https://ankitnaik.pages.dev/program/InstallChrome.ps1" | iex
 
