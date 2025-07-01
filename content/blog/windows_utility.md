@@ -15,7 +15,7 @@ math = false
 mermaid = false
 [extra.cover]
 # Path to the cover image
-image = ""
+image = "/images/winutil.jpg"
 # A description of the cover image
 alt = ""
 +++
