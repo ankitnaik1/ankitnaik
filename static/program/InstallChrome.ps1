@@ -10,5 +10,5 @@ Start-Process -FilePath "$env:TEMP\chrome_installer.exe" -ArgumentList "/silent 
 # Cleanup
 Remove-Item "$env:TEMP\chrome_installer.exe"
 
-Write-Host "AnyDesk installation completed."
+Write-Host "Chrome installation completed."
 
