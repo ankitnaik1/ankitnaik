@@ -30,3 +30,6 @@ chrome
 
     irm "https://ankitnaik.pages.dev/program/InstallChrome.ps1" | iex
 
+7zip
+
+    irm "https://ankitnaik.pages.dev/program/Install7zip.ps1" | iex
