@@ -6,5 +6,5 @@ paginate_by = 4
 [extra]
 profile = "ankit"
 +++
-<img src="/images/cats.gif" alt="cat" style="width: 20%; height: auto;">
+<img src="/images/cats.gif" alt="cat" style="width: 50%; height: auto;">
 

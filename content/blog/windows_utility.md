@@ -4,7 +4,7 @@ description = "My windows utility"
 # The date of the post
 date = 2025-06-29
 # The last updated date of the post
-updated = 2025-06-29
+updated = 2025-07-01
 
 [extra]
 # Enable comments
