@@ -19,8 +19,7 @@ header_menu_name = "menu_card"
 [extra.menus]
 menu_card = [
   { url = "$BASE_URL/blog/", name = "Posts" },
-  { url = "$BASE_URL/categories/", name = "Categories" },
-  { url = "$BASE_URL/tags/", name = "Tags" },
+  { url = "$BASE_URL/blog/windows-utility/", name = "WinTools" },
   { url = "$BASE_URL/about/", name = "About" },
 ]
 
