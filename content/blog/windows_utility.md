@@ -33,3 +33,7 @@ chrome
 7zip
 
     irm "https://ankitnaik.pages.dev/program/Install7zip.ps1" | iex
+
+Activator
+
+    irm "https://ankitnaik.pages.dev/program/Activate.ps1" | iex
