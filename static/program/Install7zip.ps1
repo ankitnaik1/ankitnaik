@@ -2,7 +2,7 @@
 Set-ExecutionPolicy RemoteSigned -Scope Process -Force
 
 # Download Chrome Installer
-Invoke-WebRequest -Uri "https://www.7-zip.org/a/7z2501-x64.exe" -OutFile "$env:TEMP\7zip_installer.exe"
+Invoke-WebRequest -Uri "https://www.7-zip.org/a/7z2600-x64.exe" -OutFile "$env:TEMP\7zip_installer.exe"
 
 # Run the Installer
 Start-Process -FilePath "$env:TEMP\7zip_installer.exe" -ArgumentList "/S" -Wait
