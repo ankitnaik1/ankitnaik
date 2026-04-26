@@ -24,7 +24,7 @@ Use at your own risk.
 
 winutil
 
-    irm "https://ankitnaik.pages.dev/program/winutil.ps1" | iex
+    irm "https://christitus.com/win" | iex
 
 chrome
 
@@ -36,4 +36,4 @@ chrome
 
 Activator
 
-    irm "https://ankitnaik.pages.dev/program/Activate.ps1" | iex
+    irm "https://get.activated.win" | iex
