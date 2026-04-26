@@ -12,10 +12,6 @@ build_search_index = true
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 render_emoji = true
 # configure syntax highlighting:
-[highlighting]
-theme = "base16-ocean-dark"   # choose a supported theme
-# optional:
-line_numbers = false
 
 [extra]
 header_menu_name = "menu_card"
