@@ -9,7 +9,7 @@ if (-not (Test-Path $windowsUpdateKey)) {
 
 # Set the registry values
 Set-ItemProperty -Path $windowsUpdateKey -Name "TargetReleaseVersion" -Value 1 -Type DWord -Force
-Set-ItemProperty -Path $windowsUpdateKey -Name "TargetReleaseVersionInfo" -Value "22H2" -Type String -Force
+Set-ItemProperty -Path $windowsUpdateKey -Name "TargetReleaseVersionInfo" -Value "23H2" -Type String -Force
 Set-ItemProperty -Path $windowsUpdateKey -Name "ProductVersion" -Value "Windows 11" -Type String -Force
 
 Write-Host "Registry keys and values successfully created."
