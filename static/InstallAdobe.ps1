@@ -2,7 +2,7 @@
 Set-ExecutionPolicy RemoteSigned -Scope Process -Force
 
 Write-Host "Downloading Adobe Acrobat Reader..." -ForegroundColor Cyan
-Invoke-WebRequest -Uri "https://ardownload3.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2600121662/AcroRdrDCx642600121662_MUI.exe" -OutFile "$env:TEMP\AcroRdrDCx64_en_US.exe"
+Invoke-WebRequest -Uri "https://get.adobe.com/reader/download?os=Windows+11&name=Reader+2026.001.21662+MUI+for+Windows-64bit&lang=mui&nativeOs=Linux+x86_64&accepted=&declined=&preInstalled=&site=enterprise" -OutFile "$env:TEMP\AcroRdrDCx64_en_US.exe"
 
 # Run the Installer Silently
 # /sAll = Silent mode for all, /msi = pass parameters to MSI, /norestart = suppress reboot
