@@ -1,0 +1,20 @@
+# Set the execution policy to allow the script to run
+Set-ExecutionPolicy RemoteSigned -Scope Process -Force
+
+# Download Adobe Acrobat Reader Installer (64-bit Continuous Release)
+$url = "https://get.adobe.com/reader/enterprise/" 
+# Note: Using the direct enterprise MSI/EXE link for reliable silent deployment
+$downloadUrl = "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2400220687/AcroRdrDCx642400220687_en_US.exe"
+
+Write-Host "Downloading Adobe Acrobat Reader..." -ForegroundColor Cyan
+Invoke-WebRequest -Uri "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/current/AcroRdrDCx64_en_US.exe" -OutFile "$env:TEMP\AcroRdrDCx64_en_US.exe"
+
+# Run the Installer Silently
+# /sAll = Silent mode for all, /msi = pass parameters to MSI, /norestart = suppress reboot
+Write-Host "Installing Adobe Acrobat Reader..." -ForegroundColor Cyan
+Start-Process -FilePath "$env:TEMP\AcroRdrDCx64_en_US.exe" -ArgumentList "/sAll /msi /norestart" -Wait
+
+# Cleanup
+Remove-Item "$env:TEMP\AcroRdrDCx64_en_US.exe" -Force
+
+Write-Host "Adobe Acrobat Reader installation completed!" -ForegroundColor Green
